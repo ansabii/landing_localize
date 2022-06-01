@@ -1,0 +1,212 @@
+header {
+    flex: 1 0 100vw;
+    background-image: url(/landing_localize/image/sky.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 2%;
+}
+
+.body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    color: #003395;
+}
+
+.title p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    color: #000000;
+}
+
+.nav {
+    flex: 1 0 100vw;
+    height: 6vh;
+    background-color: #003395;
+    padding-top: 2%;
+
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-right: 60px;
+    color: #FFFFFF;
+}
+
+.menu a:hover {
+    color: #000000;
+    transform: scale(1.2);
+}
+
+.section1 {
+    flex: 1 0 100%;
+    /* height: 30%; */
+}
+
+.section2 {
+    flex: 1 0 100%;
+    height: 30%;
+}
+
+.section3 {
+    flex: 1 0 100%;
+    height: 30%;
+}
+
+
+.welcome1 {
+    border-top: 2px solid #003395;
+    border-bottom: 2px solid #003395;
+    padding: 1% 0;
+    color: #003395;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: medium;
+    line-height: 5%;
+}
+
+section p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: medium;
+    line-height: 130%;
+}
+
+
+.welcome2 {
+    border-top: 2px solid #003395;
+    border-bottom: 2px solid #003395;
+    padding: 1% 0;
+    color: #003395;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: medium;
+    line-height: 5%;
+    margin-right: 30px;
+}
+
+.main {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 0 50%;
+    max-height: 70%;
+    padding-top: 3%;
+
+}
+
+.section {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 2 0 50%;
+    vertical-align: top;
+    max-width: 50%;
+    max-height: 55%;
+}
+
+.aside {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    max-width: 35%;
+    max-height: 55%;
+    flex: 1 2 20%;
+    margin-right: 40px;
+    margin-left: 30px;
+}
+
+.news {
+    border: 2px solid #33008D;
+    margin-bottom: 56px;
+
+}
+
+.news_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #24B0FF;
+    padding: 5% 0 5% 10%;
+    margin: 5% 5% 2% 5%;
+}
+
+.news p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    color: #30233D;
+    margin: 0 7% 5% 7%;
+}
+
+.links_h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #24B0FF;
+    padding: 5% 0 5% 10%;
+    margin: 5% 5% 7% 5%;
+}
+
+.some_links a {
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #30233D;
+
+}
+
+.links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 7% 5% 7%;
+}
+
+.some_links {
+    border: 2px solid #33008D;
+}
+
+.footer {
+    flex: 1 0 100vw;
+    height: 10%;
+    margin-top: 2%;
+    padding-bottom: 5%;
+    background: linear-gradient(180deg, #003395 0%, #00205F 100%);
+}
+
+.footer p {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    color: #FCFCFC;
+
+}
