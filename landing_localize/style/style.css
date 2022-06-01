@@ -63,7 +63,7 @@ header {
 
 .section1 {
     flex: 1 0 100%;
-    /* height: 30%; */
+    height: 30%;
 }
 
 .section2 {
@@ -93,8 +93,8 @@ section p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: medium;
-    line-height: 130%;
+    font-size: larger;
+    line-height: 200%;
 }
 
 
@@ -147,13 +147,16 @@ section p {
 }
 
 .news_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 5% 2% 5%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     color: #FFFFFF;
     background-color: #24B0FF;
-    padding: 5% 0 5% 10%;
-    margin: 5% 5% 2% 5%;
+
 }
 
 .news p {
@@ -165,13 +168,17 @@ section p {
 }
 
 .links_h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     color: #FFFFFF;
     background-color: #24B0FF;
-    padding: 5% 0 5% 10%;
-    margin: 5% 5% 7% 5%;
+    margin: 5% 5% 2% 5%;
+
+
 }
 
 .some_links a {
